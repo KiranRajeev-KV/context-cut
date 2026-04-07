@@ -1,0 +1,32 @@
+[project]
+name = "context-cut"
+version = "0.1.0"
+description = "Context-aware sales agent: naive vs compressed vs pruned context modes"
+requires-python = ">=3.12"
+dependencies = [
+    "kagglehub>=1.0.0",
+    "langchain>=1.2.15",
+    "langchain-openai>=1.1.12",
+    "pandas>=3.0.2",
+    "python-dotenv>=1.2.2",
+    "qdrant-client>=1.17.1",
+    "requests>=2.33.1",
+]
+
+[tool.pyright]
+typeCheckingMode = "strict"
+include = ["src", "demo.py", "benchmark.py"]
+exclude = [".venv", "data"]
+reportMissingTypeStubs = false
+reportUnknownMemberType = false
+reportUnknownArgumentType = false
+reportUnknownVariableType = false
+reportUnknownParameterType = false
+reportMissingParameterType = false
+reportPrivateUsage = false
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.408",
+    "ruff>=0.15.9",
+]
