@@ -15,9 +15,6 @@ wheels/
 # Ruff cache
 .ruff_cache/
 
-# Database (regenerated from raw data)
-data/crm.db
-
 # Benchmark results (regenerated)
 data/benchmark_results*.json
 

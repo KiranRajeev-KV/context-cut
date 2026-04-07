@@ -4,6 +4,8 @@
 
 **Inspired by:** *"Is a Large Context Window All You Need? Exploring Time to First Token (TTFT)-Context Size Tradeoff for Autoregressive LLMs"* by Anuran Roy, Arnab Sengupta, and Saptarshi Pani (Alchemyst AI).
 
+**[Technical Report](TECHNICAL_REPORT.md)** — Full benchmark results, quality analysis, implementation details, and comparison with Alchemyst AI's production architecture.
+
 ---
 
 ## The Problem
